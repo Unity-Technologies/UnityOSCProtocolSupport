@@ -1,0 +1,48 @@
+.SectionFoldout
+{
+    background-color: #a5a5a5;
+    margin: 0px;
+    padding: 0px 0px;
+}
+
+.Separated
+{
+    border-color: #949494;
+    border-width: 0px 0px 1px;
+}
+
+.MessageValueName
+{
+    width: 100px;
+}
+
+.Status
+{
+    border-color: #323232;
+    border-radius: 2px;
+    border-width: 0px;
+    width: 8px;
+    height: 8px;
+    margin-right: 8px;
+    flex-shrink: 0;
+}
+
+.StatusNone
+{
+    visibility: hidden;
+}
+
+.StatusOk
+{
+    background-color: #53c22b;
+}
+
+.StatusWarning
+{
+    background-color: #ffc107;
+}
+
+.StatusError
+{
+    background-color: #ff4343;
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Unity.Media.Osc.Editor",
+    "rootNamespace": "Unity.Media.Osc.Editor",
+    "references": [
+        "Unity.Media.Osc",
+        "Unity.Media.Osc.Net",
+        "Unity.Media.Osc.Components"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

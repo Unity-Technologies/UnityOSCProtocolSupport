@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:HelpBox name="not-supported-message" text="Sockets are not supported on the target platform. This component will not be able to send OSC messages." message-type="warning" />
+    <uie:PropertyField name="protocol" binding-path="m_Protocol" label="Protocol" tooltip="The network protocol to send the OSC messages with." />
+    <ui:TextField name="ip-address" binding-path="m_IpAddress" label="IP Address" tooltip="The destination IP address to send OSC Messages to." value="filler text" text="filler text" is-delayed="true" readonly="false" picking-mode="Ignore" class="unity-base-field__aligned" />
+    <ui:HelpBox name="invalid-ip-address-message" text="The specified IP address is not valid." message-type="warning" />
+    <uie:IntegerField name="port" binding-path="m_Port" label="Port" tooltip="The local port to send the OSC messages on." value="0" is-delayed="true" class="unity-base-field__aligned" />
+    <ui:HelpBox name="invalid-port-message" />
+    <ui:VisualElement name="udp-options">
+    </ui:VisualElement>
+    <ui:VisualElement name="tcp-options">
+        <uie:PropertyField name="stream-type" binding-path="m_StreamType" label="Stream Type" tooltip="The framing to use for the TCP packet stream. This must match the configuration of the receiving application.\n\nUse length prefix when sending to applications implementing the OSC 1.0 specification.\n\nUse SLIP when sending to applications implementing the OSC 1.1 specification." />
+    </ui:VisualElement>
+    <ui:Toggle name="auto-bundle" binding-path="m_AutoBundleMessages" label="Auto Bundle Messages" tooltip="Automatically groups OSC messages into OSC bundles to help reduce network overhead.&#10;NOTE: The receiving device or application must support OSC bundles." class="unity-base-field__aligned" />
+    <ui:ListView name="addresses" view-data-key="addresses" header-title="Registered Addresses" tooltip="The OSC addresses of the messages this sender may output." focusable="false" fixed-item-height="18" selection-type="None" show-alternating-row-backgrounds="All" show-foldout-header="true" show-bound-collection-size="false" virtualization-method="FixedHeight" style="max-height: 300px; margin-top: 10px;" />
+</ui:UXML>
