@@ -1,13 +1,7 @@
-com.unity.media.osc copyright © 2023 Unity Technologies
+Copyright 2023 com.unity.media.osc
 
-Licensed under the Unity Companion License (the “UCL”) with the following modification; you may not use this package except in compliance with the UCL and the following modification to it:
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
-Section 1. Unity Companion Use. is deleted and replaced with:
+	http://www.apache.org/licenses/LICENSE-2.0
 
-1. Unity Companion Use. Exercise of the license granted herein is permitted as long as it is in connection with the authoring and/or distribution of applications, software, or other content under a valid Unity Film content authoring and rendering engine software license (“Film Engine License”). In addition, you may not distribute or make the source code of the Work available to any third party unless such third party also possesses a Film Engine License. No other exercise of the license granted herein is permitted, and in no event may the Work be used for competitive analysis or to develop a competing product or service.
-
-You may obtain a copy of the UCL at 
-
-https://unity.com/legal/licenses/unity-companion-license 
-
-Unless expressly provided otherwise, the software under this license is made available strictly on an “AS IS” BASIS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. Please review the license for details on these and other terms and conditions.
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
