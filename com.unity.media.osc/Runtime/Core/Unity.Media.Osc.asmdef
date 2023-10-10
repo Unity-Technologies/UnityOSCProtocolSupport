@@ -1,0 +1,14 @@
+{
+    "name": "Unity.Media.Osc",
+    "rootNamespace": "Unity.Media.Osc",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

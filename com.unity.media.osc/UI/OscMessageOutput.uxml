@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <uie:PropertyField name="sender" label="Sender" binding-path="m_Sender" tooltip="The OSC Sender to send messages with." />
+    <ui:HelpBox name="sender-required-message" text="A sender must be assigned before messages can be output." message-type="warning" />
+    <ui:TextField label="OSC Address" value="filler text" text="filler text" is-delayed="true" binding-path="m_Address" tooltip="The OSC Address Pattern of the output messages." name="address" focusable="true" class="unity-base-field__aligned" />
+    <ui:IMGUIContainer name="arguments" style="padding-top: 0; padding-bottom: 0; margin-top: 5px; margin-bottom: 10px;" />
+    <ui:VisualElement style="height: auto; align-items: center; padding-top: 0;">
+        <ui:Button text="Add New OSC Argument" display-tooltip-when-elided="true" name="add-argument" style="margin-left: 3px; align-items: stretch; width: 180px;" />
+    </ui:VisualElement>
+</ui:UXML>

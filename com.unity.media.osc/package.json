@@ -1,0 +1,17 @@
+{
+  "name": "com.unity.media.osc",
+  "displayName": "OSC",
+  "version": "2.0.0",
+  "unity": "2022.2",
+  "description": "Send and receive control messages between the Unity Editor and external devices using the Open Sound Control (OSC) protocol.",
+  "keywords": [
+    "osc",
+    "open",
+    "sound",
+    "control"
+  ],
+  "category": "Unity",
+  "dependencies": {
+    "com.unity.modules.uielements": "1.0.0"
+  }
+}
