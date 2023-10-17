@@ -6,7 +6,7 @@
     "com.unity.ide.rider": "3.0.15",
     "com.unity.ide.visualstudio": "2.0.16",
     "com.unity.ide.vscode": "1.2.5",
-    "com.unity.media.osc": "file:../../../Packages/com.unity.media.osc",
+    "com.unity.media.osc": "file:../../com.unity.media.osc",
     "com.unity.test-framework": "1.1.31",
     "com.unity.visualscripting": "1.7.8",
     "com.unity.modules.uielements": "1.0.0"
