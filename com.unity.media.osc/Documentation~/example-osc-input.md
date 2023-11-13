@@ -1,3 +1,5 @@
+[Contents](TableOfContents.md) | [Home](index.md) > [Getting started with examples](getting-started.md) > Controlling a GameObject from a remote OSC app
+
 # Controlling a GameObject from a remote OSC app
 
 Example configuration to remotely control the position of a GameObject in your Unity Scene over the network by using a touchpad on an external OSC app.

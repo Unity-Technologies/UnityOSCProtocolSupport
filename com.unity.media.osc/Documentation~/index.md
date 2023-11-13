@@ -1,4 +1,4 @@
-# About OSC
+# OSC Protocol Support package
 
 >[!NOTE]
 >To use the OSC package, you must install it separately. For detailed information about package requirements and installation instructions, refer to [Installation](installation.md).
@@ -25,3 +25,5 @@ In Unity, the OSC package allows you, for example, to:
 | [Features](features.md) | Learn about the features and capabilities of the OSC package. |
 | [Getting started](getting-started.md) | Get started with basic configuration examples for enabling OSC message input and output. |
 | [Interface reference](ui-ref.md) | Get the description of all components and windows available for OSC configuration and use in the Unity Editor. |
+
+_See also the full [table of contents](TableOfContents.md)_

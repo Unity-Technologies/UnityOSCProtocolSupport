@@ -1,3 +1,5 @@
+[Contents](TableOfContents.md) | [Home](index.md) > [Getting started with examples](getting-started.md) > Controlling a remote OSC app from Unity
+
 # Controlling a remote OSC app from Unity
 
 Example configuration to remotely control a slider on your external OSC app over the network by manipulating a single value from the Unity Editor (here, through a Light GameObject).
