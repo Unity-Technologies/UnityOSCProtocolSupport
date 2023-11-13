@@ -1,4 +1,4 @@
-* [About OSC](index.md)
+* [OSC Protocol Support package](index.md)
 * [Installation](installation.md)
 * [Features](features.md)
 * [Getting started](getting-started.md)

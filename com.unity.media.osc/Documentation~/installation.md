@@ -1,3 +1,5 @@
+[Contents](TableOfContents.md) | [Home](index.md) > Installation
+
 # Installation
 
 To install the OSC package, follow the instructions in the [Package Manager documentation](https://docs.unity3d.com/Manual/upm-ui-install.html).

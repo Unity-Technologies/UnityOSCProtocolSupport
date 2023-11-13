@@ -1,20 +1,38 @@
-# About
-This is an internal container repository for all in-development packages, tests, and demo projects pertaining to Live Capture.
+# OSC Protocol Support for Unity Editor
 
-Use the OSC package to send and receive OSC (Open Sound Control) messages from Unity. This package implements full support for the OSC 1.0 specification, and much of the OSC 1.1 specification.
-<a name="Contents"></a>
-## Contents
-### Package
-- **[OSC](Packages/com.unity.media.osc/README.md)**
+Use the OSC Protocol Support package (`com.unity.media.osc`) to send and receive OSC (Open Sound Control) messages from Unity. This package implements full support for the OSC 1.0 specification, and much of the OSC 1.1 specification.
 
-### Test project
-Used to run the OSC package tests.
+This repository contains the code package and a test project related with Unity OSC Protocol support.
 
-## Contributing
-Read the [Versioning and Changelog Guidelines](https://docs.google.com/document/d/1TEkXz3i3J5QNk3KUALfhf4uP-1B9gaB6zJIJsTAx0cI/edit?usp=sharing).
+## Get started
 
-## Documentation
+To learn about the Unity OSC Protocol Support package (concepts, features, and workflows) read the [OSC package documentation](com.unity.media.osc/Documentation~/index.md) in this repository.  
 
-To get instructions about installing and using the OSC package in the Unity Editor, download the Built-documentation.zip file available in the package folder, unzip it locally, and open the index.html file.
+### Check out the licensing model
 
-Note: The Documentation~ folder includes the documentation sources in Markdown.
+The OSC Protocol Support package is licensed under the [Apache License, Version 2.0](LICENSE.md).
+
+### Contribution and maintenance
+
+We appreciate your interest in contributing to the Unity OSC Protocol Support package.  
+It's important to note that **this package is provided as is, without any maintenance or release plan.**  
+Therefore, we are unable to monitor bug reports, accept feature requests, or review pull requests for this package.
+
+However, we understand that users may want to make improvements to the package.  
+In that case, we recommend that you fork the repository. This will allow you to make changes and enhancements as you see fit.
+
+## OSC Protocol Support package
+
+### Access the OSC Protocol Support package folder
+
+| Package | Description |
+| :--- | :--- |
+| **[OSC](com.unity.media.osc)** | The package that allows you to send and receive OSC (Open Sound Control) messages from Unity. |
+
+### Test the OSC Protocol Support package
+
+Use this Unity project to run various tests against the OSC Protocol Support package:
+
+| Project | Description |
+| :--- | :--- |
+| [TestProject](TestProject) | Runs the tests. |
